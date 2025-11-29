@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Чётко. Вкусно — FoodTech Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              background: '#FAFAF9', // Stone 50
+              surface: '#FFFFFF', // White
+              surfaceAlt: '#F5F5F4', // Stone 100
+              primary: '#EA580C', // Orange 600
+              primaryHover: '#C2410C', // Orange 700
+              textMain: '#1C1917', // Stone 900
+              textMuted: '#57534E', // Stone 600
+              techBlue: '#0F172A', // Slate 900 (for IT contrast)
+            },
+            boxShadow: {
+              'warm': '0 4px 20px -2px rgba(234, 88, 12, 0.1)',
+              'card': '0 2px 8px -1px rgba(0, 0, 0, 0.05)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Hide scrollbar for horizontal scrolling areas but keep functionality */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/YellowCytrus/Site-for-presentation/assets/index-elJXCY0n.js"></script>
+</head>
+  <body class="bg-background text-textMain antialiased selection:bg-orange-100 selection:text-orange-900">
+    <div id="root"></div>
+</body>
+</html>
